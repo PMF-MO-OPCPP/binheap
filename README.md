@@ -42,7 +42,7 @@ se može zapamtiti kao
 ![lin-hrpa](doc/img/graph-line.txt.png)
 
 
-Vidimo da čvor a indeksom k ima svoju djecu na pozicijama 2k (lijevo dijete) i 2k+1 (desno dijete).
+Vidimo da čvor s indeksom k ima svoju djecu na pozicijama 2k (lijevo dijete) i 2k+1 (desno dijete).
 To vrijedi ako čvorove indeksiramo od jedan, tako da korijenski čvor ima indeks 1. Ako čvorove indeksiramo
 od nule, onda k-ti čvor ima djecu na pozicijama 2k+1 i 2k+2.
 
@@ -68,7 +68,7 @@ Kako to funkcionira na gornjem primjeru može se vidjeti [ovdje](doc/metoda_pop.
 
 **Ubacivanje novog elementa u stablo**. Novi element se ubacuje na kraj vektora,
 odnosno na zadnje mjesto u pridruženom binarnom stablu. Nakon toga kreće
-premještanje ubačenog elementa kako se postigao ispravan poredak elemenata.
+premještanje ubačenog elementa kako bi se postigao ispravan poredak elemenata.
 Operacija je vrlo jednostavna: ubačeni element se usporedi sa svojim elementom
 roditeljem i ako je veći od njega  izvrši se zamjena  elemenata. Postupak se
 nastavlja dok ne dobijemo ispravan poredak što znači sve dok ubačeni element
