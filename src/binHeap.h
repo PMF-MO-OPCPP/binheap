@@ -62,7 +62,7 @@ bool MaxHeap<T>::empty() const {
 }
 
 template <typename T>
-MaxHeap<T>::size_type MaxHeap<T>::size() const {
+typename MaxHeap<T>::size_type MaxHeap<T>::size() const {
   // Vaš kod
 }
 
